@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flores Amarillas para Belén</title>
+    <style>
+        body {
+            font-family: 'Verdana', sans-serif;
+            background: linear-gradient(45deg, #FFEF00, #FFB800);
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        p {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+            animation: fadeIn 4s ease-in-out;
+        }
+
+        .flower {
+            width: 120px;
+            height: 120px;
+            margin: 20px;
+            border-radius: 50%;
+            background-color: #FF6F61;
+            display: inline-block;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+            animation: rotate 10s infinite linear;
+        }
+
+        .heart {
+            font-size: 2em;
+            color: #FF6F61;
+            margin: 40px 0;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .footer {
+            margin-top: 50px;
+            font-size: 1.2em;
+            color: #FFB800;
+        }
+
+        .button {
+            margin-top: 30px;
+            padding: 15px 30px;
+            background-color: #FF6F61;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.2em;
+            color: white;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #FF4C36;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>🌻 Flores Amarillas para mi amor 🌻</h1>
+        <p>Este es un regalo especial para ti, Belén. Siempre brillando como una flor.</p>
+
+        <div class="flower"></div>
+        <div class="flower"></div>
+        <div class="flower"></div>
+
+        <div class="heart">❤️</div>
+
+        <p class="footer">Te quiero mucho, mi flor más hermosa. Siempre a tu lado. 🌼</p>
+
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="button" target="_blank">¡Mira esto, Belén! 😘</a>
+    </div>
+</body>
+</html>
